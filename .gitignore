@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit secrets (contains sensitive API keys)
+.streamlit/secrets.toml
+
+# Logs
+*.log
+streamlit_output.log
+
+# Temporary and visualization outputs (if they shouldn't be tracked)
+drug_graph.html
+net.html
+graph.html
+graph_output.html
+interactive_graph.html
+SNA_FINAL_PROJ.zip
